@@ -1,0 +1,91 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* White text color */
+  }
+  
+  .bg {
+    background-image: url('../Images/signup-bg.jpg'); /* Replace with your image URL */
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full viewport width */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensure the background image covers the entire area */
+    display: flex;
+    justify-content: right; /* left the container horizontally */
+    align-items: left; /* Center the container vertically */
+  }
+  
+  .login-container {
+    background-color: rgba(34, 34, 34, 0.9); /* Dark gray background with transparency */
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); /* Darker shadow */
+    text-align: left; /* Center the text inside the container */
+    background-position: left;
+    font-size: 30px;
+  }
+  
+  .login-container h2 {
+    margin-top: 0;
+    color: #ffffff; /* White color for heading */
+  }
+  
+  .login-container input[type="text"], .login-container input[type="password"] {
+    width: 100%;
+    padding: 10px 10px 10px 40px; /* Adjust padding for icon space */
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #333333; /* Dark border color */
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #fbf7f7; /* Dark input background */
+    color: #000000; /* White text color */
+  }
+  
+  .login-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .login-container button:hover {
+    opacity: 0.8;
+  }
+  
+  .input-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .input-container img {
+    position: absolute;
+    left: 10px;
+    top: 41%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    pointer-events: none; /* Ensure the icon doesn't interfere with input interaction */
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 10px 10px 10px 40px; /* Adjust padding for icon space */
+    border-radius: 5px;
+    border: 1px solid #333333; /* Dark border color */
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+    background-color: #e4e9ea; /* Dark input background */
+    color: #0c0c0c; /* White text color */
+  }
+  

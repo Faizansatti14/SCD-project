@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    background: linear-gradient(45deg, #97dbd8, #07545b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #7f7b7b;
+    background: linear-gradient(45deg, #01413f,#baebd7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    max-height: 100vh;
+
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    overflow-y: auto;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group select {
+    cursor: pointer;
+}
+
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group.description {
+    grid-column: span 3;
+}
+
+.form-group.upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.form-group.save-button {
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+}
+
+.form-group.save-button button {
+    padding: 10px 0px;
+    background-color: #147601;
+    color: #fff;
+    border: 1.5px solid rgb(9, 56, 1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group.save-button button:hover {
+    background-color: #218838;
+}

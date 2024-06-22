@@ -1,0 +1,30 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+.btn {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+.btn-view {
+    background-color: #007bff;
+}
+.btn-reschedule {
+    background-color: #28a745;
+}
+.btn-more {
+    background-color: #17a2b8;
+}
+.btn-cancel {
+    background-color: #dc3545;
+}

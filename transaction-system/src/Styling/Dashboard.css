@@ -1,0 +1,29 @@
+.button-row {
+    display: flex;
+    margin-left: 250px;
+  }
+  
+  .button-row button {
+    flex: 1;
+    margin: 50px;
+    padding: 25px;
+    margin: 5px;
+    border-radius: 7px;
+  }
+  .button-row button:hover {
+    background-color: #237f79;
+  }
+
+  .bt-1{
+    background: linear-gradient(45deg, #81e5bc, #4eb31b);
+  }
+  .bt-2{
+    background: linear-gradient(45deg, #68a4cc, #023455);
+  }
+  .bt-3{
+    background: linear-gradient(45deg, #6debd4, #024630);
+  }
+  .bt-4{
+    background: linear-gradient(45deg, #d96ad3, #4a0136);
+  }
+  

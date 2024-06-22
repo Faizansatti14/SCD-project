@@ -1,0 +1,76 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: none;
+
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+.profile img {
+    border-radius: 10px;
+    width: 250px;
+    height: 350px;
+}
+.details {
+    width: 40%;
+}
+.details h2 {
+    color: #2E86C1;
+}
+.details p {
+    text-align: justify;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.edit {
+    background-color: #E74C3C;
+}
+.create {
+    background-color: #28B463;
+}
+.right-column {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-column p {
+    margin: 5px 0;
+}
+.update-password {
+    background-color: #3498DB;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.details {
+    width: 40%;
+    border-right: 5px solid #4985d4; /* Add vertical line */
+    padding-right: 20px; /* Adjust spacing */
+}
